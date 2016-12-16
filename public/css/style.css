@@ -286,7 +286,7 @@ header .only-logo .navbar .navbar-header {
   width: 100%;
   height: 450px;
   text-align: right;
-  background: url("../img/dash-1.png") no-repeat;
+  background: url("../img/mockups/car cover.png") no-repeat;
   background-color: #000;
   background-size: 100%;
   color: #FFF;
@@ -415,6 +415,7 @@ header .only-logo .navbar .navbar-header {
 }
 
 .open-informative-panel {
+  cursor: pointer;
   height: 100px;
   padding: 10px 15px;
   top: 70px;
@@ -453,6 +454,8 @@ header .only-logo .navbar .navbar-header {
   top: 0;
 }
 
+.informative-panel { display: none; }
+
 .magic-description {
   margin-top: 40px;
   text-align: left;
@@ -481,4 +484,13 @@ img.img-circle.img-responsive.img-center {
 
 .team p {
   font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+  width: 100%;
+  /*   height: 70px; */
+  line-height: 70px;
+  color: #fff;
+  text-align: center;
+  background-color: #191718;
 }

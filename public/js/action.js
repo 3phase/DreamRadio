@@ -10,6 +10,14 @@ $(document).on("ready", function() {
 		window.requestAnimationFrame(function(){checkScrolling(selected)});
 	});
 
+  $(".open-informative-panel").on("click", function() {
+    alert("hahaa");
+    if ($(".informative-panel").attr("data-toggled") == "false") {
+      $(".informative-panel").attr("data-toggled", "true");
+      $(".informative-panel").css("display", "block");
+    }
+  });
+
 	function checkScrolling(tables){
 		tables.each(function(){
 			var table= $(this),
