@@ -498,8 +498,14 @@ img.img-circle.img-responsive.img-center {
 
 /*.services .row .col-md-6 { max-height: 400px; }*/
 
+.mockup-img { margin: 20px 10px; display: inline; }
+.mockup-img:after {
+    content:"\a";
+    white-space: pre;
+}
+
 .mockup-img.one { height: 550px; }
-.mockup-img.two { height: 550px; float: left; }
-.mockup-img.three { width: 838px; float: right; }
-.mockup-img.four { height: 550px; float: left; }
-.mockup-img.five { height: 559px; float: right; }
+.mockup-img.two { height: 550px; }
+.mockup-img.three { width: 838px; }
+.mockup-img.four { height: 550px; }
+.mockup-img.five { height: 559px; }
