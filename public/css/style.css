@@ -407,7 +407,7 @@ header .only-logo .navbar .navbar-header {
 .about-the-project p {
   color: #a7a7a7;
   text-align: justify;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .about-extended {
@@ -480,6 +480,7 @@ img.img-circle.img-responsive.img-center {
     margin: 0 auto;
     width: 200px;
     height: 200px;
+    border-radius: 200px;
 }
 
 .team p {
@@ -494,3 +495,11 @@ img.img-circle.img-responsive.img-center {
   text-align: center;
   background-color: #191718;
 }
+
+/*.services .row .col-md-6 { max-height: 400px; }*/
+
+.mockup-img.one { height: 550px; }
+.mockup-img.two { height: 550px; float: left; }
+.mockup-img.three { width: 838px; float: right; }
+.mockup-img.four { height: 550px; float: left; }
+.mockup-img.five { height: 559px; float: right; }
