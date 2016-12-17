@@ -8,26 +8,31 @@
 
 /* Font Faces */
 @font-face {
-font-family: 'Avenir LT Std 45 Book';
-font-style: normal;
-font-weight: normal;
-src: url('../assets/fonts/AvenirLTStd-Book.woff') format('woff');
+  font-family: 'Avenir LT Std 45 Book';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../assets/fonts/AvenirLTStd-Book.woff') format('woff');
 }
 @font-face {
-font-family: 'Avenir LT Std 85 Heavy';
-font-style: normal;
-font-weight: normal;
-src: url('../assets/fonts/AvenirLTStd-Heavy.woff') format('woff');
+  font-family: 'Avenir LT Std 85 Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../assets/fonts/AvenirLTStd-Heavy.woff') format('woff');
 }
 @font-face {
-font-family: 'Avenir LT Std 35 Light';
-font-style: normal;
-font-weight: normal;
-src: url('../assets/fonts/AvenirLTStd-Light.woff') format('woff');
+  font-family: 'Avenir LT Std 35 Light';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../assets/fonts/AvenirLTStd-Light.woff') format('woff');
 }
 @font-face {
-  font-family: Montserrat-Ultralight;
-  src: url(../assets/fonts/Montserrat-UltraLight.woff);
+  font-family: "Athelas";
+  src: url(../fonts/Athelas.ttc);
+}
+
+@font-face {
+  font-family: Athelas;
+  src: url();
 }
 
 html {
@@ -216,7 +221,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after{
           box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
 }
 .sticky-navigation .navbar-header img {
-  max-height: 30px;
+  max-height: 50px;
   -webkit-backface-visibility: hidden;
 }
 .sticky-navigation .main-navigation .current a {
@@ -241,7 +246,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after{
   background: none;
 }
 .navbar-brand{
-  padding: 10px;
+  padding: 0px;
 }
 .navbar-brand .logo-title{
   padding-left: 10px;
@@ -275,4 +280,80 @@ header .only-logo .navbar .navbar-header {
 }
 .intro-section-pad {
   padding-top: 30vh;
+}
+
+.hero-container {
+  width: 100%;
+  height: 450px;
+  text-align: right;
+  background: url("../img/dash-1.png") no-repeat;
+  background-color: #000;
+  background-size: 100%;
+  color: #FFF;
+  padding-right: 20px;
+  overflow: hidden;
+}
+
+.hero-container h3 { 
+  margin-top: 200px; 
+  font-size: 2.0em;
+}
+
+.hero-container h4 { font-size: 1.5em; }
+
+.hero-container h3, h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.hero-container span {
+   background-color: #000;
+   opacity: 0.9;
+   padding: 5px;
+}
+
+.main-container {
+  width: 
+}
+
+.product-desc {
+  padding-top: 40px;
+}
+
+.main-container.product-desc h2 {
+  margin-top: 30px;
+}
+
+.main-container h2 {
+  font-family: Athelas;
+  text-decoration: underline;
+}
+
+.main-container p {
+  text-align: justify;
+}
+
+.about-icon {
+  width: 100px;
+  height: 100px;
+  background-color: #CE5515;
+  float: left;
+  /*margin: 15px;*/
+  border-radius: 100px;
+  margin: 15px 70px;
+}
+
+.about-icon img {
+  width: 60px;
+  margin: 40px 0;
+}
+
+.about-icon.one img {
+  width: 30px;
+  margin-top: 30px;
+}
+
+.about-icon.three img {
+  width: 40px;
+  margin-top: 30px;
 }
