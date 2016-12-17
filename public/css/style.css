@@ -1,0 +1,278 @@
+@import 'https://fonts.googleapis.com/css?family=Poiret+One';
+@import 'https://fonts.googleapis.com/css?family=Raleway:100,300,200,400,500';
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,300,600,700';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
+@import 'https://fonts.googleapis.com/css?family=Advent+Pro:200,400,700';
+@import 'https://fonts.googleapis.com/css?family=Lato:100,200,400,300,700';
+@import 'https://fonts.googleapis.com/css?family=Poppins:400,500,700';
+
+/* Font Faces */
+@font-face {
+font-family: 'Avenir LT Std 45 Book';
+font-style: normal;
+font-weight: normal;
+src: url('../assets/fonts/AvenirLTStd-Book.woff') format('woff');
+}
+@font-face {
+font-family: 'Avenir LT Std 85 Heavy';
+font-style: normal;
+font-weight: normal;
+src: url('../assets/fonts/AvenirLTStd-Heavy.woff') format('woff');
+}
+@font-face {
+font-family: 'Avenir LT Std 35 Light';
+font-style: normal;
+font-weight: normal;
+src: url('../assets/fonts/AvenirLTStd-Light.woff') format('woff');
+}
+@font-face {
+  font-family: Montserrat-Ultralight;
+  src: url(../assets/fonts/Montserrat-UltraLight.woff);
+}
+
+html {
+    font-size: 100%;
+    width: auto !important;
+    overflow-x: hidden !important;
+}
+body {
+    height: 100%;
+    background: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    width: 100%;
+    overflow-x: hidden !important;
+    margin: auto !important;
+}
+hr{
+  border-color: transparent;
+}
+strong{
+  font-weight: 700;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+.white-color{
+  color: #fff;
+}
+/* Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix */
+@-webkit-viewport {
+    width: device-width;
+}
+@-moz-viewport {
+    width: device-width;
+}
+@-ms-viewport {
+    width: device-width;
+}
+@-o-viewport {
+    width: device-width;
+}
+@viewport {
+    width: device-width;
+}
+/* Link style
+/* ------------------------------ */
+a {
+   color: #464646;
+    -webkit-transition: all ease 0.25s;
+            transition: all ease 0.25s;
+}
+a:hover {
+    text-decoration: none;
+    opacity: 0.9;
+}
+a:active {
+    text-decoration: none;
+    opacity: 0.7;
+}
+a:visited {
+    text-decoration: none;
+    opacity: 0.7;
+}
+.center-div{
+  text-align: center;
+}
+a:focus{
+  text-decoration: none;
+  opacity: 0.7;
+}
+/*Bootnav navigation */
+nav.navbar.bootsnav ul.nav > li > a{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 20px 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+/*
+Color
+=========================== */
+nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover,
+.side .widget ul.link li a:hover,
+.side .widget ul.link li a:focus,
+.check-list li:before,
+ul.cart-list > li > h6 > a,
+.attr-nav > ul > li > a:hover,
+.attr-nav > ul > li > a:focus,
+nav.navbar-sidebar ul.nav li.dropdown.on > a,
+nav.navbar-sidebar .dropdown .megamenu-content .col-menu.on .title,
+nav.navbar-sidebar ul.nav li.dropdown ul.dropdown-menu li a:hover,
+nav.navbar ul.nav li.dropdown.on > a,
+nav.navbar.navbar-inverse ul.nav li.dropdown.on > a,
+nav.navbar-sidebar ul.nav li.dropdown.on ul.dropdown-menu li.dropdown.on > a,
+nav.navbar .dropdown .megamenu-content .col-menu.on .title,
+nav.navbar ul.nav > li > a:hover,
+nav.navbar ul.nav li.active > a,
+nav.navbar li.dropdown ul.dropdown-menu > li a:hover{
+    color: #121212;
+    background: rgba(0, 0, 0, 0.07);
+}
+nav.navbar.navbar-transparent ul.nav > li > a:hover,
+nav.navbar.no-background ul.nav > li > a:hover,
+nav.navbar ul.nav li.scroll.active > a,
+nav.navbar.navbar-dark ul.nav li.dropdown ul.dropdown-menu  > li > a:hover,
+nav.navbar ul.nav li.dropdown.on > a,
+nav.navbar-dark ul.nav li.dropdown.on > a{
+    color: #121212 !important;
+    background: rgba(0, 0, 0, 0.07);
+}
+@media(max-width:920px){
+    nav.navbar .dropdown .megamenu-content .col-menu ul > li > a:hover,
+    nav.navbar.navbar-dark .dropdown .megamenu-content .col-menu .title:hover{
+        color: #121212 !important;
+        background: rgba(0, 0, 0, 0.07);
+    }
+}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+}
+
+/*
+Border
+=========================== */
+ul.cart-list > li.total > .btn{
+    border-color: #121212;
+}
+nav.navbar li.dropdown ul.dropdown-menu{
+    border-top-color: #121212 !important;
+}
+/*
+Background
+=========================== */
+ul.cart-list > li.total > .btn,
+.attr-nav > ul > li > a span.badge,
+nav.navbar .share ul > li > a:hover,
+nav.navbar .share ul > li > a:focus{
+    background-color: #121212;
+}
+ul.cart-list > li.total > .btn:hover,
+ul.cart-list > li.total > .btn:focus{
+    background-color: #121212 !important;
+}
+nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle:after{
+  font-family: 'FontAwesome';
+  content: "\f107";
+  margin-left: 4px;
+  margin-top: 2px;
+}
+.top-search .input-group{
+  margin: 0px auto;
+}
+.attr-nav > ul > li > a{
+  padding: 16px 15px;
+}
+.sticky-navigation {
+  min-height: 60px;
+  background: #FFFFFF;
+  opacity: 1;
+  /*padding: 0 !important;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  margin-bottom: 0 !important;
+  -webkit-backface-visibility: hidden;
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+          box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+}
+.sticky-navigation .navbar-header img {
+  max-height: 30px;
+  -webkit-backface-visibility: hidden;
+}
+.sticky-navigation .main-navigation .current a {
+  position: relative;
+  outline: none;
+}
+.sticky-navigation .main-navigation li a {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.sticky-navigation .main-navigation li a:hover{
+  background: none;
+
+}
+.sticky-navigation .main-navigation li a:active{
+  background: none;
+}
+.sticky-navigation .main-navigation li a:focus{
+  background: none;
+}
+.navbar-brand{
+  padding: 10px;
+}
+.navbar-brand .logo-title{
+  padding-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Poiret One', cursive;
+  color: #39434A;
+  font-weight: 700;
+  text-transform: none;
+  font-size: 27px;
+  letter-spacing: 3px;
+}
+.navbar-header a:hover{
+  color: rgba(0,0,0,0.5);
+}
+.navbar-header a:focus{
+  color: rgba(0,0,0,0.5);
+}
+.navbar-header a:active{
+  color: rgba(0,0,0,0.5);
+}
+header .only-logo .navbar {
+    background: none;
+    padding: 60px;
+}
+header .only-logo .navbar .navbar-header {
+    float: none;
+}
+.intro-section {
+  margin: 30vh auto;
+}
+.intro-section-pad {
+  padding-top: 30vh;
+}
