@@ -411,7 +411,7 @@ header .only-logo .navbar .navbar-header {
 }
 
 .about-extended {
-  min-height: 150px;
+  min-height: 170px;
 }
 
 .open-informative-panel {
@@ -456,4 +456,10 @@ header .only-logo .navbar .navbar-header {
 .magic-description {
   margin-top: 40px;
   text-align: left;
+}
+
+.services-container {
+  min-height: 500px;
+  /*background: url("../img/radioteleskop-hero.jpg") no-repeat;*/
+  background-size: cover;
 }
