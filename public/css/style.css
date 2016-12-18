@@ -472,3 +472,13 @@ header .only-logo .navbar .navbar-header {
 .team {
   min-height: 400px;
 }
+
+img.img-circle.img-responsive.img-center {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.team p {
+  font-family: 'Roboto', sans-serif;
+}
