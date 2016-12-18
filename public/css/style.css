@@ -294,8 +294,8 @@ header .only-logo .navbar .navbar-header {
   overflow: hidden;
 }
 
-.hero-container h3 { 
-  margin-top: 200px; 
+.hero-container h3 {
+  margin-top: 200px;
   font-size: 2.0em;
 }
 
@@ -313,7 +313,7 @@ header .only-logo .navbar .navbar-header {
 }
 
 .main-container {
-  width: 
+  width:
 }
 
 .product-desc {
@@ -333,14 +333,22 @@ header .only-logo .navbar .navbar-header {
   text-align: justify;
 }
 
+.main-container .row {
+  text-align: center;
+}
+
+.main-container .row .col-md-4 {
+  display: inline-block;
+}
+
 .about-icon {
   width: 100px;
   height: 100px;
   background-color: #CE5515;
-  float: left;
+  /*float: left;*/
   /*margin: 15px;*/
   border-radius: 100px;
-  margin: 15px 70px;
+  margin: 15px auto;
 }
 
 .about-icon img {
@@ -356,4 +364,41 @@ header .only-logo .navbar .navbar-header {
 .about-icon.three img {
   width: 40px;
   margin-top: 30px;
+}
+
+@media screen only and (max-width: 992px) {
+  .about-icon {
+    margin: 15px 0;
+  }
+}
+
+.about-icon-desc {
+  width: 350px;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+.about-icon-desc p {
+  color: #505050;
+}
+
+.about-icon-desc p.heading {
+  text-align: center;
+}
+
+.about-the-project {
+  background: #000 url("../img/about-hero.jpg");
+  background-size: cover;
+  width: 100%;
+  min-height: 350px;
+}
+
+.about-the-project h2 {
+  color: #fff;
+  margin-top: 100px;
+}
+
+.about-the-project p {
+  color: #a7a7a7;
+  text-align: justify;
 }
