@@ -379,11 +379,15 @@ header .only-logo .navbar .navbar-header {
 }
 
 .about-icon-desc p {
-  color: #505050;
+  color: #7b7b7b;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
 }
 
 .about-icon-desc p.heading {
   text-align: center;
+  color: #000;
+  font-weight: 300;
 }
 
 .about-the-project {
@@ -391,14 +395,65 @@ header .only-logo .navbar .navbar-header {
   background-size: cover;
   width: 100%;
   min-height: 350px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .about-the-project h2 {
   color: #fff;
   margin-top: 100px;
+  font-weight: 300;
 }
 
 .about-the-project p {
   color: #a7a7a7;
   text-align: justify;
+  font-weight: 100;
+}
+
+.about-extended {
+  min-height: 150px;
+}
+
+.open-informative-panel {
+  height: 100px;
+  padding: 10px 15px;
+  top: 70px;
+  border: 2px solid #ce5515;
+  color: #000;
+  text-decoration: none;
+  font-weight: 100;
+  transition: 0.08s ease-in;
+  -o-transition: 0.08s ease-in;
+  -ms-transition: 0.08s ease-in;
+  -moz-transition: 0.08s ease-in;
+  -webkit-transition: 0.08s ease-in;
+  /*font-family: 'Exo 2', sans-serif;*/
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  font-size: 2.2em;
+}
+
+.open-informative-panel:hover {
+	color: #FFF;
+}
+
+.open-informative-panel:before {
+	content: "";
+	position: absolute;
+	background: #ce5515;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 100%;
+	z-index: -1;
+	-webkit-transition: top 0.09s ease-in;
+}
+
+.open-informative-panel:hover:before {
+  top: 0;
+}
+
+.magic-description {
+  margin-top: 40px;
+  text-align: left;
 }
