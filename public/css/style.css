@@ -458,8 +458,17 @@ header .only-logo .navbar .navbar-header {
   text-align: left;
 }
 
+.services {
+    background-color: #b4b142;
+    padding-top: 20px;
+}
+
 .services-container {
   min-height: 500px;
   /*background: url("../img/radioteleskop-hero.jpg") no-repeat;*/
   background-size: cover;
+}
+
+.team {
+  min-height: 400px;
 }
